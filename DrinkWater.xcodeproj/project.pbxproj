@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8437199C2850E53300CD0FBE /* DrinkWaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437199B2850E53300CD0FBE /* DrinkWaterApp.swift */; };
+		8437199E2850E53300CD0FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437199D2850E53300CD0FBE /* ContentView.swift */; };
+		843719A02850E53400CD0FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8437199F2850E53400CD0FBE /* Assets.xcassets */; };
+		843719A42850E53400CD0FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843719A32850E53400CD0FBE /* Preview Assets.xcassets */; };
+		843719AE2850E53400CD0FBE /* DrinkWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843719AD2850E53400CD0FBE /* DrinkWaterTests.swift */; };
+		843719B82850E53400CD0FBE /* DrinkWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843719B72850E53400CD0FBE /* DrinkWaterUITests.swift */; };
+		843719BA2850E53400CD0FBE /* DrinkWaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843719B92850E53400CD0FBE /* DrinkWaterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843719AA2850E53400CD0FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843719902850E53300CD0FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843719972850E53300CD0FBE;
+			remoteInfo = DrinkWater;
+		};
+		843719B42850E53400CD0FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843719902850E53300CD0FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843719972850E53300CD0FBE;
+			remoteInfo = DrinkWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843719982850E53300CD0FBE /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437199B2850E53300CD0FBE /* DrinkWaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterApp.swift; sourceTree = "<group>"; };
+		8437199D2850E53300CD0FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8437199F2850E53400CD0FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843719A12850E53400CD0FBE /* DrinkWater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrinkWater.entitlements; sourceTree = "<group>"; };
+		843719A32850E53400CD0FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		843719A92850E53400CD0FBE /* DrinkWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843719AD2850E53400CD0FBE /* DrinkWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterTests.swift; sourceTree = "<group>"; };
+		843719B32850E53400CD0FBE /* DrinkWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843719B72850E53400CD0FBE /* DrinkWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterUITests.swift; sourceTree = "<group>"; };
+		843719B92850E53400CD0FBE /* DrinkWaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843719952850E53300CD0FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843719A62850E53400CD0FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843719B02850E53400CD0FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8437198F2850E53300CD0FBE = {
+			isa = PBXGroup;
+			children = (
+				8437199A2850E53300CD0FBE /* DrinkWater */,
+				843719AC2850E53400CD0FBE /* DrinkWaterTests */,
+				843719B62850E53400CD0FBE /* DrinkWaterUITests */,
+				843719992850E53300CD0FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843719992850E53300CD0FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843719982850E53300CD0FBE /* DrinkWater.app */,
+				843719A92850E53400CD0FBE /* DrinkWaterTests.xctest */,
+				843719B32850E53400CD0FBE /* DrinkWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8437199A2850E53300CD0FBE /* DrinkWater */ = {
+			isa = PBXGroup;
+			children = (
+				8437199B2850E53300CD0FBE /* DrinkWaterApp.swift */,
+				8437199D2850E53300CD0FBE /* ContentView.swift */,
+				8437199F2850E53400CD0FBE /* Assets.xcassets */,
+				843719A12850E53400CD0FBE /* DrinkWater.entitlements */,
+				843719A22850E53400CD0FBE /* Preview Content */,
+			);
+			path = DrinkWater;
+			sourceTree = "<group>";
+		};
+		843719A22850E53400CD0FBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				843719A32850E53400CD0FBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		843719AC2850E53400CD0FBE /* DrinkWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				843719AD2850E53400CD0FBE /* DrinkWaterTests.swift */,
+			);
+			path = DrinkWaterTests;
+			sourceTree = "<group>";
+		};
+		843719B62850E53400CD0FBE /* DrinkWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843719B72850E53400CD0FBE /* DrinkWaterUITests.swift */,
+				843719B92850E53400CD0FBE /* DrinkWaterUITestsLaunchTests.swift */,
+			);
+			path = DrinkWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843719972850E53300CD0FBE /* DrinkWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843719BD2850E53400CD0FBE /* Build configuration list for PBXNativeTarget "DrinkWater" */;
+			buildPhases = (
+				843719942850E53300CD0FBE /* Sources */,
+				843719952850E53300CD0FBE /* Frameworks */,
+				843719962850E53300CD0FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkWater;
+			productName = DrinkWater;
+			productReference = 843719982850E53300CD0FBE /* DrinkWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843719A82850E53400CD0FBE /* DrinkWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843719C02850E53400CD0FBE /* Build configuration list for PBXNativeTarget "DrinkWaterTests" */;
+			buildPhases = (
+				843719A52850E53400CD0FBE /* Sources */,
+				843719A62850E53400CD0FBE /* Frameworks */,
+				843719A72850E53400CD0FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843719AB2850E53400CD0FBE /* PBXTargetDependency */,
+			);
+			name = DrinkWaterTests;
+			productName = DrinkWaterTests;
+			productReference = 843719A92850E53400CD0FBE /* DrinkWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843719B22850E53400CD0FBE /* DrinkWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843719C32850E53400CD0FBE /* Build configuration list for PBXNativeTarget "DrinkWaterUITests" */;
+			buildPhases = (
+				843719AF2850E53400CD0FBE /* Sources */,
+				843719B02850E53400CD0FBE /* Frameworks */,
+				843719B12850E53400CD0FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843719B52850E53400CD0FBE /* PBXTargetDependency */,
+			);
+			name = DrinkWaterUITests;
+			productName = DrinkWaterUITests;
+			productReference = 843719B32850E53400CD0FBE /* DrinkWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843719902850E53300CD0FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					843719972850E53300CD0FBE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					843719A82850E53400CD0FBE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 843719972850E53300CD0FBE;
+					};
+					843719B22850E53400CD0FBE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 843719972850E53300CD0FBE;
+					};
+				};
+			};
+			buildConfigurationList = 843719932850E53300CD0FBE /* Build configuration list for PBXProject "DrinkWater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8437198F2850E53300CD0FBE;
+			productRefGroup = 843719992850E53300CD0FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843719972850E53300CD0FBE /* DrinkWater */,
+				843719A82850E53400CD0FBE /* DrinkWaterTests */,
+				843719B22850E53400CD0FBE /* DrinkWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843719962850E53300CD0FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843719A42850E53400CD0FBE /* Preview Assets.xcassets in Resources */,
+				843719A02850E53400CD0FBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843719A72850E53400CD0FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843719B12850E53400CD0FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843719942850E53300CD0FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8437199E2850E53300CD0FBE /* ContentView.swift in Sources */,
+				8437199C2850E53300CD0FBE /* DrinkWaterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843719A52850E53400CD0FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843719AE2850E53400CD0FBE /* DrinkWaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843719AF2850E53400CD0FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843719B82850E53400CD0FBE /* DrinkWaterUITests.swift in Sources */,
+				843719BA2850E53400CD0FBE /* DrinkWaterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843719AB2850E53400CD0FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843719972850E53300CD0FBE /* DrinkWater */;
+			targetProxy = 843719AA2850E53400CD0FBE /* PBXContainerItemProxy */;
+		};
+		843719B52850E53400CD0FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843719972850E53300CD0FBE /* DrinkWater */;
+			targetProxy = 843719B42850E53400CD0FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		843719BB2850E53400CD0FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843719BC2850E53400CD0FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		843719BE2850E53400CD0FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrinkWater/DrinkWater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrinkWater/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2BX9S987E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.metalkj.DrinkWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843719BF2850E53400CD0FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrinkWater/DrinkWater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrinkWater/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2BX9S987E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.metalkj.DrinkWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		843719C12850E53400CD0FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2BX9S987E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.metalkj.DrinkWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrinkWater";
+			};
+			name = Debug;
+		};
+		843719C22850E53400CD0FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2BX9S987E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.metalkj.DrinkWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrinkWater";
+			};
+			name = Release;
+		};
+		843719C42850E53400CD0FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2BX9S987E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.metalkj.DrinkWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkWater;
+			};
+			name = Debug;
+		};
+		843719C52850E53400CD0FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2BX9S987E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.metalkj.DrinkWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843719932850E53300CD0FBE /* Build configuration list for PBXProject "DrinkWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843719BB2850E53400CD0FBE /* Debug */,
+				843719BC2850E53400CD0FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843719BD2850E53400CD0FBE /* Build configuration list for PBXNativeTarget "DrinkWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843719BE2850E53400CD0FBE /* Debug */,
+				843719BF2850E53400CD0FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843719C02850E53400CD0FBE /* Build configuration list for PBXNativeTarget "DrinkWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843719C12850E53400CD0FBE /* Debug */,
+				843719C22850E53400CD0FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843719C32850E53400CD0FBE /* Build configuration list for PBXNativeTarget "DrinkWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843719C42850E53400CD0FBE /* Debug */,
+				843719C52850E53400CD0FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843719902850E53300CD0FBE /* Project object */;
+}
